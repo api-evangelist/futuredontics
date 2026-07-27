@@ -1,8 +1,26 @@
 aid: futuredontics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/futuredontics.png
 name: Futuredontics
-description: 'Futuredontics is a company surfaced as a portfolio company of bain-capital-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: commerce. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Futuredontics is the parent company of 1-800-DENTIST, a dental marketing and patient-acquisition
+  business with more than 38 years serving dental practices across the United States. Its core offerings are
+  PatientLeads, a pay-per-call program that routes live new-patient calls (with AI-powered call screening) to
+  practices on month-to-month terms, and PatientActivator, patient-engagement software that automates
+  appointment reminders, review requests, and reputation management. The company reports serving 5,000+
+  practices, handling roughly 70,000 calls per month, and scheduling over two million appointments through its
+  platform. Futuredontics is a portfolio company of Bain Capital Ventures. It is tracked in the API Evangelist
+  network as a company profile; no public API, developer portal, or machine-readable API specification was
+  found during enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/futuredontics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Commerce
+- Dental
+- Marketing
+- Healthcare
+- Lead Generation
+- Patient Engagement
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/futuredontics-domain-security.yml
 - type: Website
   url: https://www.futuredontics.com/
+- type: PrivacyPolicy
+  url: https://join1800dentist.com/privacy-policy/
+- type: TermsOfService
+  url: https://join1800dentist.com/terms-and-conditions/
+- type: Support
+  url: https://join1800dentist.com/contact-us/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
