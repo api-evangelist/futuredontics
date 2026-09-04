@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.futuredontics.com/', status: 301, note: 'declared website redirects to https://join1800dentist.com/ — a different registrable domain (futuredontics.com -> join1800dentist.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/futuredontics.png
 name: Futuredontics
 description: 'Futuredontics is the parent company of 1-800-DENTIST, a dental marketing and patient-acquisition
